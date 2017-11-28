@@ -14,6 +14,23 @@
         "psr-4": { "Tests\\": "tests/" },
         "files": [ "vendor/symfony/symfony/src/Symfony/Component/VarDumper/Resources/functions/dump.php" ]
     },
+    "repository": {
+        "type": "package",
+        "package": {
+            "name": "githubrazvanvlad1982/FirstBundle",
+            "version": "1.0.0",
+            "source": {
+                "url": "https://github.com/githubrazvanvlad1982/FirstBundle",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Razvan\\FirstBundle\\": "src"
+                }
+            }
+        }
+    },
     "require": {
         "php": ">=5.5.9",
         "doctrine/doctrine-bundle": "^1.6",

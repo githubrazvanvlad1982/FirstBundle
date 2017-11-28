@@ -1,0 +1,11 @@
+{
+  "name": "razvan/first-bundle",
+  "license": "MIT",
+  "type": "project",
+  "description": "Razvan first bundle",
+  "autoload": {
+    "psr-4": {
+      "Razvan\\FirstBundle\\": "src/Razvan/FirstBundle"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "razvan/first-bundle",
   "license": "MIT",
-  "type": "library"
+  "type": "library",
   "description": "Razvan first bundle",
   "autoload": {
     "psr-4": {
